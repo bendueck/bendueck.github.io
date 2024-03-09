@@ -8,6 +8,12 @@
   font-family: verdana;
 }
 
+.fb-like {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .scroll-image {
   width: 30vw;
   height: 30vw;
