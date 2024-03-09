@@ -14,9 +14,8 @@
   }
 
 .fb-like-move {
-  position: relative;
-  top: 70px;
-  left: 70px;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .scroll-image {
