@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Ben Dueck</title>
+ <style>
+
+body {
+ background-color:royalblue;
+ margin: auto
+}
+
+.header {
+ background-color: black;
+ padding: 5vw;
+ font-family: verdana;
+}
+
+a {
+ color:White;
+ font-family: verdana;
+ text-decoration: none;
+}
+
+a:hover {
+ color:springgreen;
+ font-family: verdana;
+ text-decoration: none;
+}
+
+p {
+ color:white;
+ font-family:verdana;
+ padding: 21px;
+ font-weight: bold;
+ position:relative;
+ top:-28px;
+}
+
+.sitename {
+ float:left;
+ position:relative;
+ top:-4vw;
+ font-size: 2.5vw;
+ color:white;
+}
+.navbar {
+ float:right;
+ position:relative;
+ top:-4vw;
+ font-size: 2.5vw;
+ color:white;
+}
+
+.main {
+ position:relative;
+ top:-4vw;
+ height:100%;
+ width:100%;
+ object-fit:cover;
+}
+
+.shopimage {
+ height:70%;
+ width:70%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+h3 {
+ color:white;
+ font-family:verdana;
+ font-weight: bold;
+ text-align:Center;
+ font-size:7vw;
+}
+
+table td, th{
+ color:white;
+ font-family:verdana;
+ font-weight: bold;
+ border: 1px solid white;
+ padding: 7px;
+}
+
+table {
+ border-collapse: collapse;
+ margin-left:auto;
+ margin-right:auto;
+ width:70%;
+} 
+
+ul {
+color:white;
+ font-family:verdana;
+ padding: 21px;
+ font-weight: bold;
+ position:relative;
+ top:-70px;
+ right:-14px;
+}
+
+form {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color:white;
+  font-family:verdana;
+  padding: 35px;
+  font-weight: bold;
+  position:relative;
+}
+
+input[type=text], [type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 4px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family:verdana;
+  font-weight: bold;
+}
+
+input:hover[type=submit] {
+  width: 100%;
+  background-color: springgreen;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 4px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family:verdana;
+  font-weight: bold;
+}
+
+.formbackground {
+  border-radius: 5px;
+  background-color: black;
+  margin: 40px;
+}
+
+.post {
+ border: 1px solid white;
+ margin-left: 70px;
+ margin-right: 70px;
+
+ </style>
+</head>
+
+<body>
+ <div class="header">
+ <h1 class="sitename">BD Website</h1>
+  <h1 class="navbar">
+   <a href="home.html">Home</a>
+   <a href="music.html">Music</a>
+   <a href="shop.html">Shop</a>
+   <a href="blog.html">Blog</a>
+   <a href="about.html">About</a>
+  </h1>
+</div>
+<img src="Photos/musicphoto.png" class="main"/>
+
+
+ <h3>Blog</h3>
+<div class="post">
+		<p>December 20 2023: <br> This blog post is about awesome music. The first notable song is Disarm by The Smashing Pumpkins. Heard this one on the radio and it slaps, espcially the vocal effect at 0:30. Second song is 104.5 Sky Fm by skychaser. This one has a weird beat but the first minute is super distinct and catchy. Lastly, we have Kiss from a Rose by Seal, an absolute classic. Heard on an episode of "community and had to add it to the playlist. Thats all for today. Peace!</p>
+        
+</div>        
+<br>
+<div class="post">
+        <p>December 14 2023: <br> Here is an example of one of my hilarious blog posts! In this blog, I will be talking about the best places to eat in Edmonton. Check out the link below to visit these dope places. First up, for breakfast, is <a href="https://eatoeb.com/locations/oeb-edmonton/">OEB</a>. This is a charming brunch spot with two downtown locations (12040 124 St and 10174 100a St NW) as well as a Southside location (5133 Mullen Rd). The second is <a href="https://www.theburgerspriest.com/en/locations/ab/edmonton">Burger's Priest</a>. This is a must-try but also a "once-in-a-while" restaurant due to the HUGE burgers, guaranteed to satisfy your fast food craving for a week! They have one downtown location (10148 109 St NW) and one Southside location (2125 98 St NW). Last but not least is <a href="https://www.meatfordinner.com/">MEAT</a> (8216 104 St NW). This place is bussin'! They've got meat. Check it out because it is one of my favourite Edmonton restaurants. Bonus: go with friends and get a platter so you can try multiple things. View the pros and cons of each restaurant below.</p>
+
+
+<table>
+<tbody>
+<tr>
+  <td></td>
+  <td>Pros</td>
+  <td>Cons</td>
+</tr>
+<tr>
+  <td>OEB</td>
+  <td>Many locations. Good food.</td>
+  <td>Only open until 3pm.</td>
+</tr>
+<tr>
+  <td>Burger's Priest</td>
+  <td>Edmonton staple. Fun vibes.</td>
+  <td>Can be greasy.</td>
+</tr>
+<tr>
+  <td>MEAT</td>
+  <td>Great atmosphere. High quality food. 
+  <td>None??? Potentially expensive.</td>
+</tr>  
+</table> 
+<br>
+</div>
+ <br>
+</body>
+</html>

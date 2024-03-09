@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ben Dueck</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/index.js" async></script>
+    <script src="js/jQuery.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Ben Dueck</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="music.html" class="nav-link">Music</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="main"><br>
+    </div>
+
+<div class="content">
+        <h3>Shop</h3><br>
+	<p>Welcome to the shop! If any of these products interest you, 
+    please check out using the cart to complete your purchase! </p>
+  <br>
+  <div class ="shop-items">
+
+    <div class="shop-item">
+      <!-- Zoom Inspired By Web Design Inspiration https://www.youtube.com/watch?v=sL9VJFgX6xg-->
+     <img class="shop-item-image" src="Photos/shirtphoto.png" data-zoom-image="photos/shirtphoto-large.png" id="zoom"/>
+     <span class="shop-item-title">White Shirt</span>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$30</span>
+      <button class="button primary-button shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+
+    <br>
+    <div class="shop-item">
+       <!-- Zoom on Image 2-->
+       <img class="shop-item-image" src="Photos/shirtphoto2.png" data-zoom-image="photos/shirtphoto2-large.png" id="zoom2"/>
+     <span class="shop-item-title">Black Shirt</span>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$40</span>
+      <button class="button primary-button shop-item-button" type="button">ADD TO CART</button>
+      </div>
+     </div>
+    <br>
+   </div>
+  <br>
+    <section class="container">
+      <div class="cart-title">
+        Cart
+      </div>
+      <!-- Cart Inspired by Web Dev Simplified-->
+        <div class="cart-row">
+                <span class="cart-item cart-header cart-row cart-column">Item</span>
+                <span class="cart-price cart-header cart-column">Price</span>
+                <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+      <div class="cart-items">
+        </div>
+
+   <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="button primary-button button-purchase" type="button">PURCHASE</button>
+    </section>
+</div>
+
+<!-- Zoom JQuery-->
+<script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+
+<script>$("#zoom").elevateZoom();</script>
+<script>$("#zoom2").elevateZoom();</script>
+
+<br>
+  </body>
+</html>
