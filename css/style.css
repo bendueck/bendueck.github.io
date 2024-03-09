@@ -8,6 +8,11 @@
   font-family: verdana;
 }
 
+  .comment box {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
 .fb-like-move {
   position: relative;
   top: 70px;
