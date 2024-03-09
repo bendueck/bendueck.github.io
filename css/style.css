@@ -8,15 +8,9 @@
   font-family: verdana;
 }
 
-.fb-like {
-  position: relative;
-  top: -70px;
-  left: 70px;
-}
-
 .fb-like-move {
   position: relative;
-  top: -70px;
+  top: 70px;
   left: 70px;
 }
 
