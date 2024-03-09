@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ben Dueck</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <!-- Facebook Like Button -->
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="V2ZiNiFe"></script>
+    <!-- End Facebook Share -->
+
+    <!--Site Formatting-->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Ben Dueck</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="music.html" class="nav-link">Music</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main"><br>
+    </div>
+
+    <div class="content">
+        <h3>Music</h3> <br>
+		<p>Take a listen to the song Forza by our band Carmen Hill! Or use the links below to listen on your favourite streaming service:
+    </p>
+    <!-- Audio Art-->
+    <img class="album-art-image" src="Photos/albumart.jpg"/>
+
+    <!-- Audio Player By https://www.jqueryscript.net/other/Clean-Audio-Player-jQuery.html-->
+    <audio src="music/audio.wav" controls loop></audio>
+
+   
+    <a href="https://open.spotify.com/artist/548vjvBFJmDOW8ZnUUO73g"><button class="button button-link">Spotify</button></a>
+    <br>
+    <a href="https://music.apple.com/us/artist/carmen-hill/1574599247"><button class="button button-link">Apple Music</button></a>
+    <br>
+  <a href="https://www.youtube.com/channel/UCAn0AgDHJi6Su6X3OtqgzIQ"><button class="button button-link">YouTube</button></a>
+
+  <div class="fb-like" data-href="https://www.facebook.com/ben.dueck.902/" data-width="400" data-layout="" data-action="" data-size="" data-share="true"></div>
+
+  <br>
+ </div>
+
+    <!--JS/Jquery-->
+    <link rel="stylesheet" href="css/audioplayer.css" />
+    <script src="js/jQuery.js"></script>
+    <script src="js/audioplayer.js"></script>  
+    <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+
+</body>
+</html>

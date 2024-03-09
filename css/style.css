@@ -1,0 +1,601 @@
+/* Test */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+.scroll-image {
+  width: 30vw;
+  height: 30vw;
+}
+
+.shop-item-button {
+  position: relative;
+  top: 12px;
+}
+.button:hover {
+  background-color: #32de84; /* Green */
+  cursor: pointer;
+}
+
+.button {
+  font-weight: bold;
+  background-color: dodgerblue; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.button-link {
+  width: 150px;
+}
+
+.button-remove {
+  font-weight: bold;
+  background-color: dodgerblue; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.cart-header {
+  text-align: left;
+  color: black;
+  font-weight: bold; 
+}
+
+.cart-title {
+  text-align: left;
+  color: black;
+  font-size: 35px;
+  font-weight: bold; 
+}
+
+.cart-row {
+  text-align: left;
+  color: black;
+  font-weight: bold; 
+}
+
+.cart-item-title {
+  position: relative;
+  right: -10px;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+  .content {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 2rem;
+  }
+  
+  h3{
+    color: black;
+    font-size: 35px;
+  }
+
+  cart{
+    color: black;
+    font-size: 35px;
+  }
+
+  p a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+table td, th{
+ color:black;
+ font-family:verdana;
+ border: 1px solid black;
+ padding: 7px;
+}
+
+table {
+ border-collapse: collapse;
+ margin-left:auto;
+ margin-right:auto;
+ width:70%;
+} 
+
+.post {
+ border: 1px solid black;
+ padding: 1rem;
+
+}
+
+.main {
+ background-image:url("https://i.imgur.com/YhOFsgC.jpg");
+ min-height: 28vw;
+ background-position: center;
+ background-size: cover;
+}
+
+.shop-item-image {
+ height:20rem;
+ width:20rem;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.album-art-image {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 25px;
+  z-index: -1;
+ }
+
+.shop-item-price {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.shop-item-title {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color:white;
+  font-family:verdana;
+  padding: 35px;
+  font-weight: bold;
+  position:relative;
+}
+
+input[type=text], [type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 4px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family:verdana;
+  font-weight: bold;
+}
+
+input:hover[type=submit] {
+  width: 100%;
+  background-color: springgreen;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 4px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family:verdana;
+  font-weight: bold;
+}
+
+.formbackground {
+  border-radius: 5px;
+  background-color: black;
+  margin: 40px;
+}
+
+header{
+  background: black;
+}
+
+li{
+  list-style: none;
+}
+
+/* below code accessed from https://www.cssscript.com/responsive-sliding-hamburge-menu/ and modified */
+
+.logo{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+/* transition for links */
+
+.nav-link{
+  transition: .5s ease;
+}
+
+.nav-link:hover{
+  color: springgreen;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: white;
+	border-radius: 5px;
+}
+
+.nav-item{
+  padding: 0 1.5rem;
+}
+
+@media(max-width: 760px){
+  .bar{
+    display: block;
+  }
+
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: rotate(45deg) translateY(11.5px); 
+  }  
+  .hamburger.active .bar:nth-child(3){
+    transform: rotate(-45deg) translateY(-11.5px); 
+  }
+
+  .nav-menu{
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: black;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    padding: 1.5rem 0;
+  }
+  
+  .nav-menu.active{
+    right: 0;
+  }
+
+}
+
+/* RemixDesign | woaichidapi@163.com | Redesigned by JimmyCheung */
+
+.audioplayer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 1em 0;
+  padding: 0 24px;
+  width: 100%;
+  height: 96px;
+  align-items: center;
+  border: 1px solid #DDE2E6;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.audioplayer-playpause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
+  background: rgba(91, 130, 255, 0);
+  border: 1px solid #5B82FF;
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover {
+  background: rgba(91, 130, 255, 0.1);
+}
+
+.audioplayer-playing .audioplayer-playpause {
+  background: rgba(253, 79, 26, 0);
+  border: 1px solid #FD4F1A;
+}
+
+.audioplayer-playing .audioplayer-playpause:hover {
+  background: rgba(235, 79, 26, 0.1);
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+  content: '';
+  justify-content: center;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  border-top: 7px solid transparent;
+  border-right: none;
+  border-bottom: 7px solid transparent;
+  border-left: 12px solid #0059FF;
+}
+
+.audioplayer-playing .audioplayer-playpause a {
+  content: '';
+  display: flex;
+  justify-content: space-between;
+  width: 12px;
+  height: 14px;
+}
+
+.audioplayer-playing .audioplayer-playpause a::before, .audioplayer-playing .audioplayer-playpause a::after {
+  content: '';
+  width: 4px;
+  height: 14px;
+  background-color: #FD4F1A;
+}
+
+.audioplayer-time {
+  display: flex;
+  width: 40px;
+  justify-content:center;
+  font-size: 12px;
+  color: rgba(51, 51 ,51, .6)
+}
+
+.audioplayer-time-current {
+  margin-left: 24px;
+}
+
+.audioplayer-time-duration {
+  margin-right: 24px;
+}
+
+.audioplayer-bar {
+  position: relative;
+  display: flex;
+  margin: 0 12px;
+  height: 12px;
+  flex-basis: 0;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.audioplayer-bar::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  height: 2px;
+  background-color: #DDE2E6;
+}
+
+.audioplayer-bar > div {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.audioplayer-bar-loaded {
+  z-index: 1;
+  height: 2px;
+  background: #BEC8D2;
+}
+
+.audioplayer-bar-played {
+  flex-direction: row-reverse;
+  z-index: 2;
+  height: 2px;
+  background: -webkit-linear-gradient(left,#0059FF,#09B1FA);
+}
+
+.audioplayer-bar-played::after {
+  display: flex;
+  position: absolute;
+  content: '';
+  box-sizing: border-box;
+  top: -5px;
+  right: -1px;
+  margin-right: -5px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-bar-played::after {
+  border: 2px solid #BEC8D2;
+}
+
+.audioplayer-playing .audioplayer-bar-played::after {
+  border: 2px solid #0059FF;
+
+}
+
+.audioplayer-volume {
+  display: flex;
+  align-items: center;
+}
+
+.audioplayer-volume-button {
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.audioplayer-volume-button a {
+  display: flex;
+  width: 6px;
+  height: 8px;
+  background-color: #9A9FB0;
+  position: relative;
+}
+
+.audioplayer-volume-button a:before, .audioplayer-volume-button a:after {
+  content: '';
+  position: absolute;
+}
+
+.audioplayer-volume-button a:before {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 9px solid #9A9FB0;
+  border-bottom: 8px solid transparent;
+  border-left: none;
+  top: -4px;
+}
+
+.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after {
+  left: 10px;
+  top: -2px;
+  width: 6px;
+  height: 6px;
+  border: 6px double #9A9FB0;
+  border-width: 6px 6px 0 0;
+  border-radius: 0 12px 0 0;
+  transform: rotate(45deg);
+}
+
+.audioplayer-mute .audioplayer-volume-button a {
+  background-color: #FD4F1A;
+}
+
+.audioplayer-mute .audioplayer-volume-button a:before {
+  border-right: 9px solid #FD4F1A;
+}
+
+.audioplayer-volume-adjust {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.audioplayer-volume-adjust > div {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 2px;
+  cursor: pointer;
+  background-color: #BEC8D2;
+}
+
+.audioplayer-volume-adjust div div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background-color: #0059FF;
+}
+
+/* responsive | you can change the max-width value to match your theme */
+
+@media screen and (max-width: 100px) {
+  .audioplayer-volume-adjust {
+      display: none;
+  }
+}

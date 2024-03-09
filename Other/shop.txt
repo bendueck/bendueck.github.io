@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hamburger Menu </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/index.js" async></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Ben Dueck</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="music.html" class="nav-link">Music</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="main"><br>
+    </div>
+
+<div class="content">
+        <h3>Shop</h3><br>
+	<p>Welcome to the shop! If any of these products interest you, please contact us to set up your purchase! Payment is accepted via e-transfer to bendueck@yahoo.ca. Orders will be shipped once payment is received.</p>
+    <br>
+  <div class ="shop-items">
+    <div class ="shop-item">
+     <img src="https://i.imgur.com/8TAzvvF.png" class="shopimage"/>
+       <div class="price-text">$30</div>
+      <button class="button button-item" type="button">
+        ADD TO CART
+      </button>
+      </div>
+    <br>
+    <div class ="shop-item">
+     <img src="https://i.imgur.com/G1lm4SW.png" class="shopimage"/>
+       <div class="price-text">$30</div>
+      <button class="button button-item" type="button">
+        ADD TO CART
+      </button>
+     </div>
+   </div>
+  <br>
+    <section class="container">
+      <div class="cart-header">
+        Cart
+      </div>
+      <! inspired by Web Deb Simplified>
+        <div class="cart-row">
+                <span class="cart-item cart-row cart-column">Item</span>
+                <span class="cart-price cart-row cart-column">Price</span>
+                <span class="cart-quantity cart-row cart-column">Quantity</span>
+        </div>
+      <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://i.imgur.com/8TAzvvF.png" width="100" height="100">
+                        <span class="cart-item-title">Shirt 1</span>
+                    </div>
+                    <span class="cart-price cart-column">$30</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="button button-remove" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://i.imgur.com/G1lm4SW.png" width="100" height="100">
+                        <span class="cart-item-title">Shirt 2</span>
+                    </div>
+                    <span class="cart-price cart-column">$30</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="button button-remove" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+
+   <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
+            </div>
+            <button class="button button-primary button-purchase" type="button">PURCHASE</button>
+    </section>
+</div>
+    
+    
+<br>
+  </body>
+</html>
